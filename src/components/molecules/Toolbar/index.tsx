@@ -1,15 +1,15 @@
-import "./styles.css";
+import * as e from "./styles";
 import { toolbarArr } from "./utils";
 
 import Button from "../../atoms/Button";
 
 const Toolbar = () => {
   return (
-    <div className="toolbar">
+    <e.Wrapper>
       {toolbarArr.map((icon) => (
         <Button>{icon}</Button>
       ))}
-    </div>
+    </e.Wrapper>
   );
 };
 

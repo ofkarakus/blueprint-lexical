@@ -1,13 +1,13 @@
-import "./App.css";
+import * as e from "./App.styles";
 import Toolbar from "./components/molecules/Toolbar";
 import Body from "./components/organisms/Body";
 
 function App() {
   return (
-    <div className="App">
+    <e.Wrapper>
       <Toolbar />
       <Body />
-    </div>
+    </e.Wrapper>
   );
 }
 

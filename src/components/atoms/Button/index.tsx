@@ -1,8 +1,8 @@
 import { ReactNode } from "react";
-import "./styles.css";
+import * as e from "./styles";
 
 const Button = ({ children }: { children?: ReactNode }) => {
-  return <div className="btn">{children}</div>;
+  return <e.Wrapper>{children}</e.Wrapper>;
 };
 
 export default Button;

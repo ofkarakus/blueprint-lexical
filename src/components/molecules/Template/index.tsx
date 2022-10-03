@@ -1,7 +1,7 @@
-import "./styles.css";
+import * as e from "./styles";
 
 const Template = () => {
-  return <textarea name="editor" className="editable"></textarea>;
+  return <e.Wrapper name="editor"></e.Wrapper>;
 };
 
 export default Template;

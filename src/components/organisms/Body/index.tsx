@@ -1,11 +1,11 @@
-import "./styles.css";
+import * as e from "./styles";
 import Template from "../../molecules/Template";
 
 const Body = () => {
   return (
-    <div className="body">
+    <e.Wrapper>
       <Template />
-    </div>
+    </e.Wrapper>
   );
 };
 
